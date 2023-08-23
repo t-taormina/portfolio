@@ -16,7 +16,7 @@ function Experience({}: Props) {
         <h3 className="header">
             Experience
         </h3>
-        <div>
+        <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory">
             <Card />
             <Card />
             <Card />
