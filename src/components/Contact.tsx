@@ -1,10 +1,5 @@
 import React from "react";
-import {
-  PhoneIcon,
-  MapPinIcon,
-  EnvelopeIcon,
-  ChatBubbleLeftRightIcon,
-} from "@heroicons/react/20/solid";
+import { MapPinIcon, EnvelopeIcon } from "@heroicons/react/20/solid";
 import { useForm, SubmitHandler } from "react-hook-form";
 
 type Props = {};

@@ -7,7 +7,12 @@ type Props = {};
 
 function Hero({}: Props) {
   const [text, count] = useTypewriter({
-    words: ["Software Engineer", "Happy Hacker", "Thanks For Stopping By"],
+    words: [
+      "Software Engineer",
+      "Happy Hacker",
+      "Writeups coming soon!",
+      "Thanks For Stopping By",
+    ],
     loop: true,
     delaySpeed: 2000,
   });
@@ -40,6 +45,9 @@ function Hero({}: Props) {
           </Link>
           <Link href="#projects">
             <button className="heroButton">Projects</button>
+          </Link>
+          <Link href="#blog">
+            <button className="heroButton">Blog</button>
           </Link>
         </div>
       </div>
