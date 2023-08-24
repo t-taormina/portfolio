@@ -1,11 +1,9 @@
-import React from 'react'
+import React from "react";
 
-type Props = {}
+type Props = {};
 
 function Project({}: Props) {
-  return (
-    <div>Project</div>
-  )
+  return <div>Project</div>;
 }
 
-export default Project
+export default Project;
