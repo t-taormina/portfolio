@@ -16,7 +16,10 @@ function Projects({}: Props) {
     >
       <h3 className="header">Projects</h3>
 
-      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20">
+      <div
+        className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-500/20
+        scrollbar-thumb-[#F391AC]/60"
+      >
         {projects.map((project, i) => (
           <div
             className="w-screen flex-shrink-0 snap-center flex flex-col spaace-y-5 items-center
